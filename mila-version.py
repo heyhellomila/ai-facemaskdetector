@@ -40,7 +40,7 @@ transform = transforms.Compose([
     
 ])
 
-total_ds = ImageFolder('/content/drive/MyDrive/ManishProjects/facemask_dataset/dataset', transform=transform)
+total_ds = ImageFolder('/insert link/', transform=transform)
 
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader, Subset
@@ -196,7 +196,7 @@ transform = transforms.Compose([
     transforms.ToTensor(),
     transforms.Normalize((.5, .5, .5), (.5, .5, .5))
     ])
-app_image = ImageFolder('/content/drive/MyDrive/ManishProjects/facemask_dataset/mahish_project1_app', transform=transform)
+app_image = ImageFolder('/insert link/', transform=transform)
 app_dl = DataLoader(app_image, batch_size, shuffle=True, num_workers=2, pin_memory=True)
 
 model = ConvNeuralNet(num_classes)
