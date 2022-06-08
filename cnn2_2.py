@@ -40,7 +40,7 @@ def get_data():
     
     
     transform = transforms.Compose([transforms.ToTensor(),
-                                    transforms.Resize((512,512)),
+                                    transforms.Resize((256,256)),
                                     transforms.Normalize((0.5, 0.5, 0.5),(0.5, 0.5, 0.5))]) 
 
     
@@ -103,7 +103,7 @@ class CNN(nn.Module):
         )
         
         self.fc_layer1 = nn.Sequential(
-            nn.Linear(64 * 64 * 128, 1000),
+            nn.Linear(32 * 32 * 128, 1000),
             nn.ReLU(inplace=True),
             nn.Dropout(p=0.1),
         )
