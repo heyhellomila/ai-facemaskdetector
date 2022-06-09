@@ -2,7 +2,7 @@
 
 *Project Guidelines provided by Dr. Rene Witte of Concordia University, Summer 2022.*
 
-**AI Face Mask Detector** is a Python library to create an AI that can analyze face images and detect whether a person is wearing a face mask or not, as well as the type of mask that is being worn.
+**AI Face Mask Detector** is a Python library to create an AI that can analyse face images and detect whether a person is wearing a face mask or not, as well as the type of mask that is being worn.
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h2vfads4prj20u00vudkd.jpg)
 
@@ -40,31 +40,47 @@ conda install pytorch torchvision -c pytorch
 ```
 - OpenCV
 
+- If you would like to delegate the computation to your GPU instead install the following:
+	- cudatoolkit=11.3
+	
+```bash
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+```
 
+
+## Setting up the code to your system
+
+- First download/clone the cnn2_2.py file from our [github repo](https://github.com/heyhellomila/ai-facemaskdetector)
+
+- Open it in your preferred IDE
+
+Take note that due to the batch size of the testing set, the CNN is intended to run in a hybrid mode. The training is delegated to the GPU (cuda) and the testing to the CPU.
+
+If you are running it on an online Jupyter Notebook, or you do not have a modern dedicated GPU (NVIDIA RTX 2000 series and newer) you should run it purely on the CPU.
+```python
+# If you would like to run it purely on your cpu uncomment line 25 
+# device = 'cpu'
+#to 
+device = 'cpu'  
+
+# and comment line 26
+device=torch.device("cuda")
+# To: 
+# device=torch.device("cuda")
+```
 
 ## Usage
+Simply hit run on your IDE
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
 
 ## Contributing Members 
 Role Assignments
 
 
 
-Mila Roisin (29595774) \n
-Bozhidar Leshev (40105294) \n
-Deniz Dinchdonmez (40128249) \n
+Mila Roisin (29595774) 
+Bozhidar Leshev (40105294) 
+Deniz Dinchdonmez (40128249) 
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
