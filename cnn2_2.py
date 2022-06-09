@@ -175,8 +175,10 @@ for epoch in range(num_epochs):
         # print('Epoch [{}/{}], Step [{}/{}], Loss: {:.4f}, Accuracy: {:.2f}%'
         .format(epoch + 1, num_epochs, loss.item(),
         (correct / total) * 100))
-  
-# plotting
+
+###################################### 
+# Plotting
+# The code for the ploting is taken from https://www.cs.toronto.edu/~lczhang/360/lec/w02/training.html
 plt.plot(iterations, loss_list)
 plt.title("Training Curve (batch_size={}, lr={})".format(len(train_set), learning_rate))
 plt.xlabel("Iterations")
@@ -187,7 +189,7 @@ plt.title("Training Curve (batch_size={}, lr={})".format(len(train_set), learnin
 plt.xlabel("Iterations")
 plt.ylabel("Training Accuracy")
 plt.show()
-
+#############################################
 
 
 
