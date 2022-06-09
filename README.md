@@ -63,7 +63,8 @@ Role Assignments
 
 
 Mila Roisin (29595774)
-
+Bozhidar Leshev (40105294)
+Deniz Dinchdonmez (40128249)
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
