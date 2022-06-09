@@ -62,9 +62,9 @@ Role Assignments
 
 
 
-Mila Roisin (29595774)
-Bozhidar Leshev (40105294)
-Deniz Dinchdonmez (40128249)
+Mila Roisin (29595774) \n
+Bozhidar Leshev (40105294) \n
+Deniz Dinchdonmez (40128249) \n
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
