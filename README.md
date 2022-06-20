@@ -29,6 +29,8 @@ It is recommended that you use Python 3.7 or greater, which can be installed eit
 
 ## Installation
 
+As the file is too big for Github, we have provided a link to both dataset and cnn: https://drive.google.com/drive/folders/1pzzq1y0dVN09l_bRReLsX1l_GnNfxj4x
+
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Anaconda.
 
 Packages required:
