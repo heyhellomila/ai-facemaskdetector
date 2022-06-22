@@ -84,7 +84,7 @@ for train, test in kfold.split(original_set):
     f1_list.append(f1_i)
 
 print()
-print('The overall performance metrics over all 10 folds are as follows:')
+print('The overall performance metrics over all 10 folds are the following:')
 print()
 print('Accuracy = ', sum(accuracy_list) / 10)
 print('Precision = ', sum(precision_list) / 10)
