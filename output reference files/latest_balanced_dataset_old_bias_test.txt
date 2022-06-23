@@ -1,0 +1,17 @@
+balanced dataset latest model old bias test
+
+Accuracy of the network on the 40 test images: 55.00000000000001 %
+Predicted:  tensor([0, 3, 2, 0, 1, 1, 0, 0, 0, 0, 1, 3, 3, 1, 3, 1, 3, 1, 1, 1, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 1, 0, 1, 1, 3, 3, 1, 3, 3, 1]) 40
+Expected:  tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2,
+        2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]) 40
+              precision    recall  f1-score   support
+
+           0       0.50      0.60      0.55        10
+           1       0.62      0.50      0.56        10
+           2       0.64      0.90      0.75        10
+           3       0.33      0.20      0.25        10
+
+    accuracy                           0.55        40
+   macro avg       0.53      0.55      0.53        40
+weighted avg       0.53      0.55      0.53        40

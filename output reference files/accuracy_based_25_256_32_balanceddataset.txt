@@ -1,0 +1,29 @@
+new model cnn2_5 accuracy saved balanced data
+
+saving/rejecting the following epoch based on accuracy:
+Epoch [1/25], Loss: 11.8906, Accuracy: 30.02%, Status: saved
+Epoch [2/25], Loss: 0.6318, Accuracy: 43.31%, Status: saved
+Epoch [3/25], Loss: 0.3768, Accuracy: 50.68%, Status: saved
+Epoch [4/25], Loss: 0.2859, Accuracy: 49.77%, Status: rejected
+Epoch [5/25], Loss: 0.2205, Accuracy: 53.95%, Status: saved
+Epoch [6/25], Loss: 0.1784, Accuracy: 53.88%, Status: rejected
+Epoch [7/25], Loss: 0.1507, Accuracy: 54.86%, Status: saved
+Epoch [8/25], Loss: 0.1226, Accuracy: 58.36%, Status: saved
+Epoch [9/25], Loss: 0.1083, Accuracy: 56.91%, Status: rejected
+Epoch [10/25], Loss: 0.0918, Accuracy: 61.63%, Status: saved
+Epoch [11/25], Loss: 0.0884, Accuracy: 57.90%, Status: rejected
+Epoch [12/25], Loss: 0.0776, Accuracy: 60.87%, Status: rejected
+Epoch [13/25], Loss: 0.0635, Accuracy: 65.81%, Status: saved
+Epoch [14/25], Loss: 0.0628, Accuracy: 62.99%, Status: rejected
+Epoch [15/25], Loss: 0.0524, Accuracy: 66.41%, Status: saved
+Epoch [16/25], Loss: 0.0537, Accuracy: 63.91%, Status: rejected
+Epoch [17/25], Loss: 0.0508, Accuracy: 62.23%, Status: rejected
+Epoch [18/25], Loss: 0.0414, Accuracy: 68.62%, Status: saved
+Epoch [19/25], Loss: 0.0440, Accuracy: 66.79%, Status: rejected
+Epoch [20/25], Loss: 0.0413, Accuracy: 65.88%, Status: rejected
+Epoch [21/25], Loss: 0.0320, Accuracy: 73.25%, Status: saved
+Epoch [22/25], Loss: 0.0345, Accuracy: 69.45%, Status: rejected
+Epoch [23/25], Loss: 0.0319, Accuracy: 70.82%, Status: rejected
+Epoch [24/25], Loss: 0.0262, Accuracy: 74.54%, Status: saved
+Epoch [25/25], Loss: 0.0251, Accuracy: 74.24%, Status: rejected
+Accuracy of the network on the 440 test images: 49.77272727272727 %
